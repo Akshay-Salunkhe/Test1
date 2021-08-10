@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Product Card</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- CSS only -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="container mt-5" >
+       <div class="row">
+          
+        <ul id="dynamic-list"></ul>
+
+        <div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+            <input type="checkbox" style="margin-left: auto; margin-right: auto;" onclick="script.js">
+            <img src="images/Img.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+            <div class="card-body" id="car">
+                <li>
+                <b>Name:Laptop</b><br>
+                <b>Description:Lenovo 1st edition</b><br>
+                <b>Price:800</b><br>
+                <b>Qty:<input type="text" id="q1" value="0" size="3" data-price="100" style="width: 100px; height: 20px;"></b>
+            </li>
+            </div>
+    </div>
+
+    <div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+        <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+        <img src="images/Lenovotab.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+        <div class="card-body">
+            <b>Name:Lenovo Tab</b><br>
+            <b>Description:Black Latest</b><br>
+            <b>Price:300</b><br>
+            <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+            
+        </div>
+</div>
+
+<div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+    <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+    <img src="images/camera.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+    <div class="card-body">
+        <b>Name:Camera</b><br>
+        <b>Description:This is 48 MP camera</b><br>
+        <b>Price:200</b><br>
+        <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+        
+    </div>
+</div>
+<div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+    <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+    <img src="images/cctv.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+    <div class="card-body">
+        <b>Name:CCTV Camera</b><br>
+        <b>Description:This 20px Camera</b><br>
+        <b>Price:300</b><br>
+        <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+        
+    </div>
+</div>
+   
+</div>
+   </div>
+
+   <div class="container mt-5" >
+    <div class="row">
+     <div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+        <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+         <img src="images/carx.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+         <div class="card-body">
+             <b>Name:Car</b><br>
+             <b>Description:This is  X Model</b><br>
+             <b>Price:100</b><br>
+             <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+             
+         </div>
+ </div>
+
+ <div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+    <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+     <img src="images/cover.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+     <div class="card-body">
+         <b>Name:Back Cover</b><br>
+         <b>Description:This is One Plus Cover</b><br>
+         <b>Price:100</b><br>
+         <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+         
+     </div>
+</div>
+
+<div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+    <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+ <img src="images/harddisk.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+ <div class="card-body">
+     <b>Name:Hard Disk</b><br>
+     <b>Description:Dell Hard Disk</b><br>
+     <b>Price:100</b><br>
+     <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+     
+ </div>
+</div>
+<div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+    <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+ <img src="images/headset.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+ <div class="card-body">
+     <b>Name:Headset</b><br>
+     <b>Description:This is High bass headset</b><br>
+     <b>Price:100</b><br>
+     <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+     
+ </div>
+</div>
+
+</div>
+</div>
+
+<div class="container mt-5" >
+    <div class="row">
+     <div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+        <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+         <img src="images/keyboard.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+         <div class="card-body">
+             <b>Name:Keyboard</b><br>
+             <b>Description:This is Dell keyboard</b><br>
+             <b>Price:500</b><br>
+             <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+             
+         </div>
+ </div>
+
+ <div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+    <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+     <img src="images/powerbank.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+     <div class="card-body">
+         <b>Name:Power Bank</b><br>
+         <b>Description:Realmi Black</b><br>
+         <b>Price:200</b><br>
+         <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+         
+     </div>
+</div>
+
+<div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+    <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+ <img src="images/projector.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+ <div class="card-body">
+     <b>Name:Projector</b><br>
+     <b>Description:High Quality </b><br>
+     <b>Price:600</b><br>
+     <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+     
+ </div>
+</div>
+<div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+    <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+ <img src="images/remote.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+ <div class="card-body">
+     <b>Name:Remote</b><br>
+     <b>Description:This is Tv remote</b><br>
+     <b>Price:100</b><br>
+     <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+     
+ </div>
+</div>
+
+</div>
+</div>
+
+<div class="container mt-5" >
+    <div class="row">
+     <div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+        <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+         <img src="images/tv.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+         <div class="card-body">
+             <b>Name:Tv</b><br>
+             <b>Description:This is smart TV</b><br>
+             <b>Price:500</b><br>
+             <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+             
+         </div>
+ </div>
+
+ <div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+    <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+     <img src="images/watch.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+     <div class="card-body">
+         <b>Name:Watch</b><br>
+         <b>Description:This is hand watch</b><br>
+         <b>Price:100</b><br>
+         <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+         
+     </div>
+</div>
+
+<div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+    <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+ <img src="images/mouse.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+ <div class="card-body">
+     <b>Name:Mouse</b><br>
+     <b>Description:This is Dell Mouse</b><br>
+     <b>Price:200</b><br>
+     <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+     
+ </div>
+</div>
+<div class="card col-3 border-primary" style="width: 250px;height: 370px;">
+    <input type="checkbox" style="margin-left: auto; margin-right: auto;">
+ <img src="images/badmintan.jpg" class="card-img-top" style="width: 180px; height: 200px; margin: 10px ; padding-left:10px ;">
+ <div class="card-body">
+     <b>Name:Badmintan</b><br>
+     <b>Description:This is popular</b><br>
+     <b>Price:100</b><br>
+     <b>Qty:<input type="text" style="width: 100px; height: 20px;"></b>
+     
+ </div>
+</div>
+</div>
+</div>
+
+
+
+<br>
+<h4>Ordered Item</h4>
+<div class="row">
+    <div class="col-12">
+        <table id="tab" class="">
+
+        </table>
+    </div>
+    
+    <br>
+</div>
+<hr>
+<button type="button" class="btn btn-primary" onclick="totalSum()">Display Total Amount for Shopping</button><br><br><br><br><br>
+    </div>
+    <script>
+
+var sum=0;
+var count=0;
+
+        function product(a){
+    var c = document.getElementById('check'+a)
+    if (c.checked) {
+
+       document.getElementById('q'+a) .disabled=true
+        
+	   document.getElementById('card'+a).style.backgroundColor='#F4D160'
+       var ele=document.createElement("tr")
+       ele.id="row"+a
+       document.getElementById('tab').appendChild(ele)
+
+       var el=document.createElement('td')
+       el.id=a
+       document.getElementById('row'+a).appendChild(el)
+
+       var el=document.createElement('td')
+       el.id="item"+a
+       document.getElementById('row'+a).appendChild(el)
+
+       var el=document.createElement('td')
+       el.id="price"+a
+       document.getElementById('row'+a).appendChild(el)
+
+       var el=document.createElement('td')
+       el.id="quantity"+a
+       document.getElementById('row'+a).appendChild(el)
+
+       var el=document.createElement('td')
+       el.id="total"+a
+       document.getElementById('row'+a).appendChild(el)
+      
+     var name = document.getElementById("name"+a)
+     var price =document.getElementById("p"+a)
+     var qt = document.getElementById("q"+a).value
+     var pr=parseInt(price.textContent)*qt
+        sum+=pr
+     count++
+     document.getElementById(a).innerHTML=count+'.&emsp;'
+     document.getElementById("item"+a).innerHTML=name.textContent+'&emsp;'
+     document.getElementById("price"+a).innerHTML=price.textContent+'&emsp;'
+     document.getElementById("quantity"+a).innerHTML=qt+'&emsp;'
+     document.getElementById('total'+a).innerHTML=pr+"&emsp;"
+
+    }else{
+        count--
+        var price =document.getElementById("p"+a)
+        var qt = document.getElementById("q"+a).value
+        var pr=parseInt(price.textContent)*qt
+        sum-=pr
+        document.getElementById('q'+a) .disabled=false
+        document.getElementById(a).innerHTML=count+'.&emsp;'
+    document.getElementById('tab').removeChild(document.getElementById('row'+a))
+        if (1<=a&&a<=4||9<=a&&a<=12) {
+            document.getElementById('card'+a).style.backgroundColor='#C2FFD9'
+          
+        } else if (5<=a&&a<=8||13<=a&&a<=16) {
+                document.getElementById('card'+a).style.backgroundColor='#seagreen'
+               
+            }
+    }
+}
+function totalSum(){
+alert("Total sum: "+sum)
+}
+
+    </script>
+</body>
+</html>
+</body>
+</html>
